@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-22_15-14-23",
+            "content": "@@ -1115,13 +1115,11 @@\n == %22\n-criar\n+new\n %22:%0A \n@@ -1244,15 +1244,12 @@\n == %22\n-mostrar\n+show\n %22:%0A \n@@ -1302,15 +1302,11 @@\n == %22\n-enxugar\n+dry\n %22:%0A \n@@ -1399,14 +1399,16 @@\n == %22\n-trocer\n+wringout\n %22:%0A \n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-09-22_15-15-13",
+            "content": "class Towel:\n    def __init__(self, color: str, size: str, wetness: int):\n        self.color: str = color\n        self.size: str = size\n        self.wetness: int = 0 \n    \n    def show(self) -> None:\n        print(self); \n    \n    def __str__(self) -> str:\n        return f\"Cor: {self.color}, Tam: {self.size}, Umidade: {self.wetness}\"\n    \n    def getMaxWetness(self) -> int:\n        if self.size == \"P\":\n            return 10;\n        if self.size == \"M\":\n            return 20\n        if self.size == \"G\":\n            return 30;\n        return 0\n    \n    def dry(self, amount: int) -> None: \n        self.wetness += amount;\n        if self.wetness > self.getMaxWetness():\n            print(\"toalha enchardada\")\n        self.wetness = self.getMaxWetness()\n\n    def wringOut(self) -> None:\n        self.wetnesss = 0\n    \n    def isDry(self) -> bool:\n        return self.wetness == 0;\n\n\n\ndef main():\n    toalha = Towel(\"\", \"\", 0)\n\n    while True:\n        print(\"$\", end=\"\")\n        line: str = input()\n        args: list[str] = line.split(\" \")\n\n        if args[0] == \"end\":\n            break;\n        elif args[0] == \"criar\":\n            color = args[1]\n            size = args[2]\n            toalha = Towel(color, size, 0)\n        elif args[0] == \"mostrar\":\n            print(toalha)\n        elif args[0] == \"enxugar\":\n            amount = int(args[1])\n            toalha.dry(amount);\n        elif args[0] == \"trocer\":\n            return toalha.wetness == 0\n        else:\n            print(\"fail: comando desconhecido\")\n\n\nmain()",
+            "lines": "61"
+        }
+    ]
+}
