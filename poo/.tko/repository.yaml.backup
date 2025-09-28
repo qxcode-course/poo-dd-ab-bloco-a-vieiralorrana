@@ -10,6 +10,7 @@ expanded:
 - campanha-principal
 - bloco_b-primeiras-classes
 tasks:
+  animal: '{rate:100, iagen:_, alone:9, study:50}'
   enxugar: '{rate:100, iagen:_, guide:_, alone:5, study:60}'
 flags:
   quests: 1
@@ -17,4 +18,4 @@ flags:
   tasks: 0
   graph: 1
   xray: 0
-index: enxugar
+index: animal

@@ -26,3 +26,17 @@
 2025-09-28 15:38:22, EXEC, v:1, k:enxugar, mode:FULL, rate:100
 2025-09-28 15:38:26, EXEC, v:1, k:enxugar, mode:FULL, rate:100
 2025-09-28 15:38:59, SELF, v:1, k:enxugar, rate:100, iagen:_, guide:_, alone:5, study:60
+2025-09-28 17:33:29, MOVE, v:1, k:animal, mode:PICK
+2025-09-28 17:33:31, EXEC, v:1, k:animal, mode:FULL, rate:0, size:11
+2025-09-28 17:59:47, EXEC, v:1, k:animal, mode:FULL, rate:25, size:53
+2025-09-28 18:00:46, EXEC, v:1, k:animal, mode:FULL, rate:25, size:53
+2025-09-28 18:01:09, EXEC, v:1, k:animal, mode:FULL, rate:75, size:53
+2025-09-28 18:03:48, EXEC, v:1, k:animal, mode:FULL, rate:75, size:53
+2025-09-28 18:04:40, EXEC, v:1, k:animal, mode:FULL, rate:75, size:54
+2025-09-28 18:13:00, EXEC, v:1, k:animal, mode:FULL, rate:25, size:56
+2025-09-28 18:14:35, EXEC, v:1, k:animal, mode:FULL, rate:75, size:54
+2025-09-28 18:15:52, EXEC, v:1, k:animal, mode:FULL, rate:25, size:55
+2025-09-28 18:16:20, EXEC, v:1, k:animal, mode:FULL, rate:25, size:53
+2025-09-28 18:17:24, EXEC, v:1, k:animal, mode:FULL, rate:100, size:54
+2025-09-28 18:17:36, MOVE, v:1, k:animal, mode:BACK
+2025-09-28 18:18:30, SELF, v:1, k:animal, rate:100, iagen:_, alone:9, study:50
