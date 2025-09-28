@@ -10,7 +10,7 @@ expanded:
 - campanha-principal
 - bloco_b-primeiras-classes
 tasks:
-  enxugar: '{guide:_, alone:2}'
+  enxugar: '{rate:100, iagen:_, guide:_, alone:5, study:60}'
 flags:
   quests: 1
   tracks: 1
